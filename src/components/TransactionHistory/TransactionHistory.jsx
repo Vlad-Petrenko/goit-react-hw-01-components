@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import { Container } from 'components/container/container';
 import styles from './TransactionHistory.module.css';
-import { type } from '@testing-library/user-event/dist/type';
 
 export const TransactionHistory = ({ transactions }) => {
   return (
