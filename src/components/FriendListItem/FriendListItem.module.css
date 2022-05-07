@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 8px;
+  border: 2px inset black;
+  border-radius: 5px;
+  box-shadow: 8px 8px 20px -1px #844a87;
+}
+
+.status {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #008000;
+}
+
+.name {
+  margin-left: 16px;
+}
