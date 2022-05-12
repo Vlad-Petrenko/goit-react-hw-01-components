@@ -7,9 +7,7 @@ export const Profile = ({
   tag,
   location,
   avatar,
-  followers,
-  views,
-  likes,
+  stats: { followers, views, likes },
 }) => {
   return (
     <Container>
@@ -45,7 +43,7 @@ Profile.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  followers: PropTypes.number.isRequired,
-  views: PropTypes.number.isRequired,
-  likes: PropTypes.number.isRequired,
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
 };
